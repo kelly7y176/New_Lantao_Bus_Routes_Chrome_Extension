@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "New Lantao Bus Route",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*"],
+      "matches": ["https://www.google.com/*"]
+    }
+  ]
+}
