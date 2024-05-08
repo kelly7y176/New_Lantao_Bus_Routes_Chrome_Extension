@@ -1,6 +1,7 @@
 # Hong Kong New Lantao_Bus Routes Checking Extension **`(Chrome_Extension)`**
 
-Allows users to efficiently find the location of the nearest 24-hour emergency rooms and related medical information more easily in Hong Kong.
+Enables users to search for bus routes, allowing them to access information on arrival times, bus stations, and station maps.
+
 
 
 Preview:
