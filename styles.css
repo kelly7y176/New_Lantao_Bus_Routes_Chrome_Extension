@@ -12,7 +12,7 @@ body {
   background: #00897b;
 }
 
-#logo:hover {
+#logo:hover{
   transition: 0.2s;
   transform: translateY(-0.15em);
   transform: scale(103%);
@@ -20,16 +20,18 @@ body {
 
 ::placeholder {
   color: #b6b6b6;
+  
 }
 
 input:focus::placeholder {
   color: transparent;
+
 }
 
 hr {
   background-color: #b6b6b6;
   border: none;
-  height: 1px;
+  height:1px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
@@ -71,7 +73,7 @@ input {
 }
 
 #searchBtn:hover {
-  background: #6b4513;
+  background: #6B4513;
 }
 
 span {
@@ -89,7 +91,7 @@ h5 {
   text-align: center;
 }
 
-button {
+button{
   padding: 20px;
   margin-bottom: 10px;
   border: none;
@@ -100,25 +102,26 @@ button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   cursor: pointer;
   width: 100%;
-  font-size: 16px;
+  font-size: 16px; 
 }
 
-button:hover {
+button:hover{
   background-color: #01695c;
   color: #fff;
   box-shadow: 3px 4.9px 16px rgba(0, 0, 0, 0.3);
-  letter-spacing: 5px;
+  letter-spacing:5px;
   transition: 0.6s;
   transform: translateY(-0.15em);
 }
 
 tr {
   background: #fafafa;
-  color: #6b4513;
+  color: #6B4513;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
+
 
 tr:hover {
   background-color: #ededed;
@@ -136,12 +139,12 @@ th {
   font-weight: 900;
 }
 
-td {
+td{
   height: 80px;
 }
 
 table {
-  width: 100%;
+  width:100%;
   border-spacing: 0px 20px;
 }
 
@@ -153,7 +156,8 @@ table {
   padding-bottom: 10px;
 }
 
-#refreshBtn:hover {
+
+#refreshBtn:hover{ 
   color: #07403b;
 }
 
@@ -163,16 +167,29 @@ table {
 }
 
 @keyframes animName {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+ 0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
 }
 
 #loadingMessage {
-  font-size: 2em;
-  font-weight: 800;
-  color: #929292;
+font-size: 2em;
+font-weight: 800;
+color: #929292;
+}
+
+mapBtn {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #07403b;
+}
+
+mapBtn:hover {
+  color: #00897b;
+}
+
+iframe{
+  width: 100%;
+  height: 400px;
+  border: none;
+  loading: lazy;
 }
